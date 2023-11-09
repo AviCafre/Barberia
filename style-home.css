@@ -3,13 +3,14 @@
     display: flex;
     background: #CCCCCC;
     justify-content: center;
+    width: 100%;
 }
 
 .enlaces{
     background-color: #CCCCCC;
     position: relative;
     float: left;
-    width: 96%;
+    width: 100%;
     padding: 20px;
     font-size: 20px;
     font-weight: 700;
@@ -17,15 +18,28 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-size: 25px;
 }
-.ul li a{
-    display: inline;
+.enlaces ul{
+    color: rgb(10, 10, 10);
+    display: flex;
     justify-content: center;
     align-items: center;
 }
-
+.enlaces ul li{
+    margin: 15px;
+    list-style-type: none; 
+}
+*body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
 #banner{
-    width:100%;
+    width: 100%;
+    justify-content: center;
 }
 
 .principal{
@@ -57,13 +71,12 @@ em strong{
     display: inline-block;
     vertical-align: top;
     width: 30%;
-    margin-right: 15%;
-    text-decoration: none;
-    
+    list-style-type: none;
 }
 .items{
-    text-decoration: none;
+    
     font-size: 20px;
+    margin: 15px;
 }
 
 .imagenDiferenciales{
